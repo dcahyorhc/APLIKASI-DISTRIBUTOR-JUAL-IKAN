@@ -1,0 +1,7 @@
+.<?php 
+$koneksi =mysqli_connect("localhost","id17886801_nanda","Ms~H*!}pHz^%1CX9","id17886801_kondular");
+
+//cek koneksi
+if (mysqli_connect_error()){
+	echo "Konksi database gagal :". mysqli_connect_error();
+} ?>
